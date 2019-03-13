@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application-configuration xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--是否测试环境-->
+	<IsTestEnvironment value="false" />
+	<!--是否显示测试Toast-->
+	<IsDebugToast value="true" />
+	<!--是否显示测试数据-->
+	<IsDebugLog value="true" />
+	<!--是否使用测试数据-->
+	<IsDebugData value="false" />
+	<!--是否单元测试-->
+	<IsUnitTest value="true" />
+    <!--字符编码-->
+	<Charset value="utf-8" />
+	
+    <!--是否在SdCard上生成日志-->
+	<IsCreateFileLog value="false" />
+	<!--SdCard上生成日志路径-->
+	<CreateFileLogPath value="\Log\" />
+	
+	<!--是否在崩溃时掉以html或者方式打开-->
+	<IsOpenSystemCrash value="true" />
+	
+    <!--是否在崩溃时发送日志到指定邮箱-->
+	<IsSendErrorToEmail value="true" />
+	<!--发送邮箱的用户名-->
+	<!-- <SendMailHostUrl value="smtp.qq.com" />  qq-->
+	<SendMailHostUrl value="" />
+	<!--发送邮箱的用户名-->
+	<SendMailUserName value="" />
+	<!--发送邮箱的密码-->
+	<SendMailPassWord value="" />
+	<!--要发送的邮箱-->
+	<ReceiveMailUserName value="" />
+	
+</Application-configuration>
+	
